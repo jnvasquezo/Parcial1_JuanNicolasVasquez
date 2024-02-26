@@ -4,6 +4,7 @@ public class Persona {
     private  static  short edad;
     private static int salario;
 
+//aplicamos el polimorfismo
     public Persona(String nombre, String rol, String curso, short edad){
         this.nombre = nombre;
         this.rol = rol;
@@ -11,7 +12,7 @@ public class Persona {
         this.edad = edad;
         this.salario = 0;
     }
-
+//aplicamos el polimorfismo
     public Persona(String nombre, String curso, short edad){
         this.nombre = nombre;
         this.rol = "Docente";
@@ -35,6 +36,8 @@ public class Persona {
     public  static String Emergencia(){
         return nombre;
     }
+
+//se crean los getter y setter de la clase
 
     public static String getNombre() {
         return nombre;
